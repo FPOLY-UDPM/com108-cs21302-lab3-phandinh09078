@@ -27,7 +27,10 @@ int main(){
     scanf("%f", &diem);
 
     // Xử lý, tính toán VÀ Hiển thị kết quả
-    if (diem >= 9) {
+    if (diem < 0 || diem > 10) {
+        printf("Diem khong hop le. Vui long nhap diem trong khoang 0-10.\n");
+    } else if
+    (diem >= 9) {
         printf("Hoc luc xuat sac\n");
     } else if (diem >= 8) {
         printf("Hoc luc gioi\n");
