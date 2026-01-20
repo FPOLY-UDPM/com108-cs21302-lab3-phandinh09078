@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="QKv8vEwB-dsoTKCeu6qI" name="Page-1">
+        <mxGraphModel dx="984" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="70" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="nhập a b c" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="a==0?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="280" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="b==0?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="280" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="vô số nghiệm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="in vô sô nghiệm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Đ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="S" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="380" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Tính delta=b^2&amp;nbsp;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="380" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Delta&amp;lt;0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="480" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Delta==0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="580" width="135" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Vô nghiệm&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="In vô nghiệm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Tính X=-b/2a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="nghiệm kép" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="In nghiệm kép" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Tính nghiệm 1=(-b = căn(delta))/ (2a)&lt;div&gt;Tính Nghiệm 2 = (-b + căn(delta)) (2a)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="710" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="nghiệm 1&lt;div&gt;Nghiệm 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="In Nghiệm 1&lt;div&gt;Nghiệm 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Vô nghiệm&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="In vô nghiệm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -18,9 +18,8 @@
 
     #include <stdio.h>
 
-int main() {
+    int main() {
     float a, b, x;
-
     printf("Nhap a, b: ");
     scanf("%f %f", &a, &b);
 
