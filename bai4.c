@@ -10,11 +10,27 @@
 #include <stdio.h>
 
 int main(){
+    printf("Menu 3 bt Lab3\n");
+    printf("a. tinh hoc luc SV\nb. giai pt bac 1\nc. Giai pt bac 2\nd. tinh tien dien\n");
+char BaiTap;
+scanf("%s", &BaiTap);
+switch(BaiTap){
+    case 'a':
+        printf(" Chon bai a.");   
+        break;
+    case 'b':   
+        printf(" Chon bai b.");   
+        break;
+    case 'c':   
+        printf(" Chon bai c.");   
+        break;
+    case 'd':
+        printf(" Chon bai d.");   
+        break;  
+    default:
+        printf("Lua chon khong hop le.");
+}
     
-    // Khai báo biến
-
-
-    // Nhập dữ liệu
 
 
     // Xử lý, tính toán VÀ Hiển thị kết quả

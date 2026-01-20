@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [PHAN NHƯ ĐỊNH]
+ * MSSV:      [PS49566]
+ * Lớp:       [COM103_CS21302]
  *****************************************************************************/
 
 //  BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH GIẢI PHƯƠNG TRÌNH  
@@ -15,16 +15,25 @@
 //   b != 0: Phương trình vô nghiệm 
 //  Ngược lại: Phương trình có nghiệm x = -b/a 
  
-#include <stdio.h>
 
-int main(){
-    
-    // Khai báo biến
+    #include <stdio.h>
 
+    int main() {
+    float a, b, x;
+    printf("Nhap a, b: ");
+    scanf("%f %f", &a, &b);
 
-    // Nhập dữ liệu
+    if (a == 0) {
+        if (b == 0)
+            printf("Phuong trinh co vo so nghiem");
+        else if (b != 0)
+            printf("Phuong trinh vo nghiem");
+    } else {
+        x = -b / a;
+        printf("Phuong trinh co nghiem x = %.2f", x);
+    }
 
-
-    // Xử lý, tính toán VÀ Hiển thị kết quả
-
+    return 0;
 }
+
+    
